@@ -1,0 +1,79 @@
+.topbar .wrapper  .middle, .topbar .wrapper  .right
+{
+    display: none;
+}
+
+.topbar .wrapper  .left
+{
+    width: 100%;
+    text-align: center;
+}
+
+.topbar  .wrapper .menu
+{
+    display: block;
+    width: 10px;
+}
+
+.topbar  .wrapper .menu .hamburger
+{
+    width: 25px; 
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}  
+
+.topbar  .wrapper .menu .hamburger span
+{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    /* transform-origin: left; */
+    /* transition: all 1s ease; */
+}
+
+
+.details .content
+{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.details .content .left
+{
+    width: 100%;
+}
+
+.details .content .right
+{
+    width: 80%;
+}
+
+.mySwiper 
+{
+    width: 100%;
+}
+
+
+.container
+{
+    flex-direction: column;
+}
+
+.container .box
+{
+    padding: 5px;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.container .box .imgg
+{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}

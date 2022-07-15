@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aarti Rathi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" media="screen and (max-width:870px)" href="phone.css"></link>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+  <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="topbar" id="topbar">
+        <div class="wrapper">
+          <div class="menu">
+            <div class="hamburger">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
+            </div>
+          </div>
+          <div class="left">
+          <a href="#intro" class="logo"><img src="assets/Logo.png" alt=""></a>   
+          </div>
+
+          <div class="middle">
+            <span class="itemc">Wedding Cards</span>
+            <span class="itemc">Birthday Cards</span>
+            <span class="itemc">Feeling Cards</span>
+            <span class="itemc">Anniversary Cards</span>
+          </div>
+          
+          <div class="right">
+            <span>Login / SignUp</span>
+          </div>
+    </nav>
+
+    <section class="details" id="details">
+      <div class="bgimg">
+        <img src="assets/Background.jpg" alt="">
+      </div>
+      <div class="head">Digital Card Making</div>
+
+      <div class="contentt">
+        <div class="content">
+          <div class="left">
+              <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/Page1.jpg" alt="" class="imgg">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/Page2.jpg" alt="" class="imgg">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/Page3.jpg" alt="" class="imgg">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+            </div> 
+
+          <div class="right">
+            <h4>Cards Title</h4>
+            <div class="price">
+              <p>&#x24 499 </p>
+                <p style="text-decoration: line-through;">
+                  &#x24 2000
+                </p>
+                <h5>75% Off</h5>
+            </div>
+            <p class="para">Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Facilis mollitia quisquam laboriosam omnis tenetur!</p>
+            <button class="try">Try for Free</button>
+          </div>
+        </div>
+
+        <section class="feature">
+          <h1>Features</h1>
+          <div class="container">
+            <div class="box">
+              <div class="imgg">
+                <img src="" alt="">
+              </div>
+              <h3>Create your card in just 5 mins</h3>
+            </div>
+            <div class="box">
+              <div class="imgg">
+                <img src="" alt="">
+              </div>
+              <h3>Customize the Text with "Edit this Page" Option</h3>
+            </div>
+            <div class="box">
+              <div class="imgg">
+                <img src="" alt="">
+              </div>
+              <h3>Editing is available after purchase also</h3>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </section>
+
+</body>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 'auto',
+    grabCursor: true,
+    spaceBetween: 30,
+    centeredSlides: true,
+    // loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+
+</html>

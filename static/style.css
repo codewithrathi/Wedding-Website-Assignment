@@ -1,0 +1,263 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+  /* TopBar */
+
+.topbar
+{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    top:0;
+    z-index: 3;
+    transition: all 1s ease;
+}
+
+.topbar  .wrapper
+{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar  .wrapper .menu
+{
+    display: none;
+}
+
+.topbar .wrapper  .left .logo img
+{
+    height: 55px; 
+}
+
+.topbar .wrapper  .middle, .topbar .wrapper  .right
+{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+.topbar .wrapper  .right
+{
+    font-size: 15px;
+    right: 5px;
+}
+
+.topbar .wrapper  .middle .itemc
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 5px;
+    font-family: 'IM Fell Double Pica', serif;
+
+}
+
+/* `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` */
+
+/* background Image */
+.details
+{
+    margin-top: 20px;
+    top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.bgimg
+{
+    width: 100%;
+    text-align: center;
+}
+
+.bgimg img
+{
+    width: 90%;
+    height: 250px;
+    border-radius: 50px;
+}
+
+.head
+{
+    font-family: 'IM Fell Double Pica', serif;
+    top: 80px;
+    position: absolute;
+    font-size: 45px;
+    color: white;
+}
+
+.details .contentt
+{
+    top: 150px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.details .content
+{
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px -8px black;
+    border-radius: 50px;
+    display: flex;
+    width: 85%;
+    padding: 15px;
+    transition: all 2s ease;
+}
+
+.details .content .left
+{
+    width: 63%;
+    box-shadow: 0,0, 10px, 2px, rgba(0,0,0,0.1);
+    /* border: 2px solid black; */
+}
+
+.mySwiper
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.swiper 
+{
+    position: static !important;
+}
+
+.swiper-slide
+{
+    /* height: 100%; */
+    width: 300px !important;
+    margin-right: 5px !important;
+}
+
+.swiper-slide .imgg
+{
+    margin: 10px;
+    cursor: pointer;
+    width: 90%;
+    border-radius: 25px;
+}
+
+.swiper-pagination
+{
+    position: relative !important;
+}
+
+.details .content .right
+{
+    width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.details .content .right h4
+{
+    font-size: 30px;
+    margin: 20px;
+
+}
+
+.details .content .right .price
+{
+    margin: 10px;
+    font-size: 25px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details .content .right .price h5
+{
+    color: rgb(106, 238, 106);
+}
+
+.details .content .right .para
+{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.details .content .right .try
+{
+    width: 70%;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+/* `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` */
+
+/* Features */
+
+.feature
+{
+    margin: 40px 0px;
+    width: 90%;
+}
+
+.feature h1
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+.container
+{
+    height: auto;
+    box-shadow: 0px 0px 15px -8px black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.container .box
+{
+    font-size: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.container .box .imgg
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 30px auto;
+}
+
+.container .box h3
+{
+    text-align: center;
+}
+
+
+
+
+
